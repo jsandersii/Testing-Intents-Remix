@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Testing Intents II</string>
+    <string name="title_activity_sum">Summary Activity</string>
+    <string name="hello_world">hello world!</string>
+    <string name="init_message">Initial Activity</string>
+    <string name="sum_message">The sum of x.x and y.y is z.z.</string>
+    <string name="action_settings">Settings</string>
+    <string name="calc_sum">Get the Sum</string>
+    <string name="calc_random">Feeling Lucky?</string>
+    <string name="results">Here are your results:</string>
+
+</resources>

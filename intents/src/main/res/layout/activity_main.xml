@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.testingintentsii.intents.MainActivity">
+
+    <TextView
+        android:id="@+id/tvInit"
+        android:text="@string/init_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="12pt" />
+    <Button
+        android:id="@+id/btnGetSum"
+        android:text="@string/calc_sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvInit"
+        android:layout_margin="20dp"
+        android:onClick="onClickCalculate"/>
+    <Button
+        android:id="@+id/btnGetRandom"
+        android:text="@string/calc_random"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvInit"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@+id/btnGetSum"
+        android:layout_margin="20dp"
+        android:onClick="onClickRandom"
+        />
+
+</RelativeLayout>
